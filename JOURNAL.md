@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 11/1/2025 - Selected the components on circuit designer  
+## 11/1/2025 11 AM - Selected the components on circuit designer  
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzMzNywicHVyIjoiYmxvYl9pZCJ9fQ==--1fcf3079acd5bbf81477d778f727fa8fdfdae61c/image.png)
 Component List:
@@ -15,4 +15,13 @@ MQ-2 Smoke Sensor- A sensor used to detect smoke and gas levels.
 Buzzer Module
 Li-ion battery 18650-2000mAh 3.7V 7.4WH
 RGB LED  
+
+## 11/1/2025 12 PM - Routed all the wires  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzM1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--d14ae88fdf1666034c91dd0607a6c722cdba57a8/image.png)
+It was bit difficult but yea i did it
+So, the MQ-2 sensor detects smoke or flammable gases. It outputs an analog voltage proportional to the gas concentration, which the Arduino reads via pin A0.
+The buzzer sounds an alarm when the gas/smoke concentration crosses a set threshold.
+The LED glows as a visual warning when smoke is detected.
+  
 
