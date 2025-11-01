@@ -2,6 +2,9 @@
 This project is to detect smoke levels using an MQ-2 smoke sensor and provide visual and auditory alerts based on the detected smoke concentration.
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzM1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--d14ae88fdf1666034c91dd0607a6c722cdba57a8/image.png)
+
+This Arduino code is for a smoke detection system that uses a smoke sensor, a buzzer, and an RGB LED to show air quality levels. The smoke sensor connects to analog pin A0. The buzzer and red, green, and blue LEDs connect to digital pins 8, 9, 10, and 11. During setup, the system calibrates the smoke sensor by averaging 100 readings to find a threshold value for normal air conditions. In the main loop, the code reads the smoke level and compares it to this threshold. If the smoke level is much higher than the threshold, it activates the buzzer and lights the red LED to indicate danger. For moderate smoke levels, it shows a yellow light without the buzzer. If the air is clean, the green LED lights up. The system updates every 2 seconds, providing real-time smoke detection and alerts using sound and color indicators.
+
 BOM-
 | **S.No.** | **Component Name**                               | **Price (INR)** | **Qty** | **Total (INR)** | **Price (USD)** | **Total (USD)** |
 | --------- | ------------------------------------------------ | --------------- | ------- | --------------- | --------------- | --------------- |
