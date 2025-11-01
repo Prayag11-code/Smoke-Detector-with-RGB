@@ -1,6 +1,7 @@
 # Smoke-Detector-with-RGB
 This project is to detect smoke levels using an MQ-2 smoke sensor and provide visual and auditory alerts based on the detected smoke concentration.
 
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzM1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--d14ae88fdf1666034c91dd0607a6c722cdba57a8/image.png)
 BOM-
 | **S.No.** | **Component Name**                               | **Price (INR)** | **Qty** | **Total (INR)** | **Price (USD)** | **Total (USD)** |
 | --------- | ------------------------------------------------ | --------------- | ------- | --------------- | --------------- | --------------- |
