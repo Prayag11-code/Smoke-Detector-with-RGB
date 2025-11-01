@@ -25,3 +25,9 @@ The buzzer sounds an alarm when the gas/smoke concentration crosses a set thresh
 The LED glows as a visual warning when smoke is detected.
   
 
+## 11/1/2025 2 PM - Firmware/Code  
+
+The code is designed for a smoke detection system that uses a smoke sensor, a buzzer, and an RGB LED to indicate air quality levels. The smoke sensor is connected to analog pin A0 while the buzzer and red, green, and blue LEDs are connected to digital pins 8, 9, 10, and 11.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzM2NywicHVyIjoiYmxvYl9pZCJ9fQ==--66b59f540ff5f232e0b34bed3de476e749da1fc7/image.png)
+  
+
