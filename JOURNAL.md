@@ -31,3 +31,16 @@ The code is designed for a smoke detection system that uses a smoke sensor, a bu
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzM2NywicHVyIjoiYmxvYl9pZCJ9fQ==--66b59f540ff5f232e0b34bed3de476e749da1fc7/image.png)
   
 
+## 11/2/2025 - Challenged Faced during this project!!  
+
+1) Initially, the readings from the smoke sensor fluctuated a lot. It was difficult to decide a fixed threshold value for smoke detected.
+To solve this, I have implemented a calibration function that averages 100 readings during setup to find a stable baseline. Adding a small offset (+50) helped reduce false alarms.
+
+2) Controlling RGB LEDs required understanding PWM (Pulse Width Modulation) and using analogWrite() instead of digitalWrite().
+At first, I mistakenly used digital signals, which could make the LED only turn fully ON or OFF. Switching to analog control will allow smooth color blending possibly!!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzcwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--0eb01d75f1ecc668b4e030b44dfc549cc274c62f/image.png)
+
+
+  
+
